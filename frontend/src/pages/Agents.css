@@ -1,0 +1,83 @@
+/* Agents Page Container */
+.agents-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .agents-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .agents-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .agents-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .agents-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .agents-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  /* Agents List */
+  .agents-list-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .agents-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .agent-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .agent-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .agent-email {
+    color: #555;
+  }
+  
