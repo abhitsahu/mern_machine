@@ -7,7 +7,13 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors());
+const corsOptions = {
+    origin: "https://mern-machine-brown.vercel.app",
+    methods: "GET,POST,PUT,DELETE",
+    allowedHeaders: "Content-Type,Authorization",
+  };
+  
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.use("/api/auth", require("./routes/authRoutes"));
